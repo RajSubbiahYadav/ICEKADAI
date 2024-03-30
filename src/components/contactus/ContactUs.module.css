@@ -1,0 +1,104 @@
+.wrapper {
+  min-height: rem(400px);
+  width: 77vw;
+  margin: auto;
+  background: linear-gradient(
+    110.3deg,
+    #ffeb6b 8.7%,
+    #ffdb4d 47.5%,
+    #ffcf33 89.1%
+  );
+  border-radius: var(--mantine-radius-md);
+  padding: calc(var(--mantine-spacing-xl) * 2.5);
+  box-shadow: 2px 2px 7px rgb(0,0,0);
+  @media (max-width: 576px) {
+    padding: calc(var(--mantine-spacing-xl) * 1.5);
+  }
+  @media (max-width: 720px) {
+    width: 95vw;
+  }
+}
+
+.title {
+  font-family: 'Oregano', cursive !important;
+  color: #fff !important;
+  font-size: 3rem !important;
+  text-shadow: 2px 2px 2px rgb(0,0,0);
+
+ 
+  line-height: 1;
+  @media (max-width: 720px) {
+    font-size: 2.5rem !important;
+  }
+}
+
+.description {
+  text-shadow: 2px 2px 2px rgb(0,0,0);
+    font-family: 'Oregano', cursive !important;
+color: #fff !important;
+  font-size: 1.9rem !important;
+  max-width: rem(300px);
+  @media (max-width: 720px) {
+    font-size: 1.4rem !important;
+  }
+
+  @media (max-width: 576px) {
+    max-width: 100%;
+  }
+}
+
+.form {
+  background: #f9416c;
+  padding: var(--mantine-spacing-xl);
+  border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-lg);
+  @media (max-width: 720px) {
+    font-size: 0.9rem !important;
+  }
+}
+
+.social {
+  color: var(--mantine-color-white);
+
+  @mixin hover {
+    color: var(--mantine-color-blue-1);
+  }
+}
+
+.input {
+  background-color: var(--mantine-color-white);
+
+  color: #333 !important;
+ font-family: 'Oregano', cursive !important;
+  font-size: 1.5rem !important;
+  &::placeholder {
+    color: var(--mantine-color-gray-5);
+   font-family: 'Oregano', cursive !important;
+    font-size: 1.5rem;
+    @media (max-width: 720px) {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+
+
+.inputLabel {
+  color: #fff;
+  font-size: 1.5rem !important;
+ font-family: 'Oregano', cursive !important;
+  @media (max-width: 720px) {
+    font-size: 1.3rem;
+  }
+}
+
+.control {
+  background-color:#ffdf00 !important;
+  color: #fff;
+ text-shadow: 2px 2px 2px rgb(0,0,0);
+  font-size: 1.7rem !important;
+ font-family: 'Oregano', cursive !important;
+  @media (max-width: 720px) {
+    font-size: 1.3rem;
+  }
+}
