@@ -201,7 +201,9 @@ const EightSection = () => {
             {' '}
             Delight in the Tangy Sweetness of Raspberries with Every Spoonful! Let the Vibrant Flavors of Raspberry Brighten Your Day!
           </Text>
-         <Button>Q&A</Button>
+         <Button onClick={()=>{
+            window.location.href = '/mysteries'
+          }}>Q&A</Button>
         </TextContainer>
         <I1 ref={ImageRef1} src={Image1}/>
       </Section>

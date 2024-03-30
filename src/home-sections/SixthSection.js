@@ -206,7 +206,9 @@ const SixthSection = () => {
           🍍It's an experience you won't want to miss—a burst of tropical
           delight in every bite!
         </Text>
-        <Button>Faqs</Button>
+        <Button onClick={()=>{
+            window.location.href = '/mysteries'
+          }}>Faqs</Button>
       </TextContainer>
       <I1 ref={ImageRef1} src={Image1} />
     </Section>

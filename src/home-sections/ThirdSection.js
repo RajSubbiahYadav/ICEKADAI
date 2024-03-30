@@ -254,7 +254,9 @@ const ThirdSection = () => {
           Indulge in the timeless charm of vanilla and let your taste buds dance
           with joy.
         </Text>
-        <Button>About us</Button>
+        <Button onClick={()=>{
+            window.location.href = '/about-us'
+          }}>About us</Button>
       </TextContainer>
       <I1 ref={ImageRef1} src={Image1} />
       <I2 ref={ImageRef2} src={Image2} />

@@ -221,7 +221,9 @@ const SeventhSection = () => {
             {' '}
             Experience the Taste of the Tropics with Every Coconut-infused Bite! 🌴🥥 Let the Creamy Goodness of Coconut Transport You to Relaxation! 🏝️🥥
           </Text>
-         <Button>Get Franchise</Button>
+         <Button onClick={()=>{
+            window.location.href = '/contact-us'
+          }}>Get Franchise</Button>
         </TextContainer>
         <I1 ref={ImageRef1} src={Image1}/>
       </Section>

@@ -207,7 +207,9 @@ const FifthSection = () => {
             {' '}
             Quench Your Thirst with a Burst of Summer in Every Bite! 🌞Let the Juicy Goodness of Watermelon Transport You to Tropical Paradise!
           </Text>
-         <Button>Contact us</Button>
+         <Button onClick={()=>{
+            window.location.href = '/contact-us'
+          }}>Contact us</Button>
         </TextContainer>
         <I1 ref={ImageRef1} src={Image1}/>
       </Section>

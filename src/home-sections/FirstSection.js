@@ -268,7 +268,9 @@ const FirstSection = () => {
        Get Ready to Melt: Dive into Chocolate Heaven with Our Choco-tastic Ice Creams! 🍫
             </span>
           </SubTitle>
-          <Button>Know more</Button>
+          <Button onClick={()=>{
+            window.location.href = '/about-us'
+          }}>Know more</Button>
         </TitleContainer>
       </Section>
 
