@@ -146,7 +146,7 @@ const FooterSection = () => {
             About us
           </li>
           <li aria-hidden="true" onClick={() => window.location.href = '/mysteries'}>
-            Mysteries
+            Faqs
           </li>
           <li aria-hidden="true" onClick={() => window.location.href = '/contact-us'}>
             Reach out

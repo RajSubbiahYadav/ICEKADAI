@@ -167,7 +167,7 @@ const FooterSection = () => {
             aria-hidden="true"
             onClick={() => (window.location.href = '/mysteries')}
           >
-            Mysteries
+            Faqs
           </li>
           <li
             aria-hidden="true"
