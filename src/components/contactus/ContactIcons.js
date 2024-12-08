@@ -7,11 +7,11 @@ import { Text, Box, Stack } from '@mantine/core'
 const icons = {
   'ri-mail-fill': {
     title: 'Email',
-    description: 'nikhilv7@yahoo.com',
+    description: 'rajsubbiahyadav@gmail.com',
   },
   'ri-phone-fill': {
     title: 'Phone',
-    description: '+91 7208291301',
+    description: '+91 7900012549',
   },
 
   'ri-sun-fill': {

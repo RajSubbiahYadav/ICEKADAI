@@ -160,7 +160,7 @@ const FooterSection = () => {
               justifyContent: 'center',
             }}
           >
-            Made by Nikhil Verma
+            Made by Raj Yadav
           </span>
 
           <span>
